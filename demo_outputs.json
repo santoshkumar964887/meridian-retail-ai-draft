@@ -1,0 +1,20 @@
+{
+  "C1": {
+    "draft_reply": "Thank you for reporting the broken zip on your jacket (order MR-1042). Since the damage was reported within two days of delivery (2026-09-15), this can be referred for human return review per policy P1. Please note this does not mean a refund has been approved.",
+    "evidence_refs": ["P1", "P2"],
+    "missing_information": [],
+    "review_status": "READY_FOR_HUMAN_REVIEW"
+  },
+  "C2": {
+    "draft_reply": "Thank you for reporting the broken zip on your jacket (order MR-1088). To apply the two-day rule, we need the delivery date. Could you please provide when the jacket was delivered?",
+    "evidence_refs": ["P2"],
+    "missing_information": ["delivery_date"],
+    "review_status": "NEEDS_INFORMATION"
+  },
+  "C3": {
+    "draft_reply": "Regarding your request to confirm the issue is resolved (order MR-1126): The issue record shows 'open' status and the replacement request is still under review. Per policy P3, I cannot state the issue is resolved while the record remains open.",
+    "evidence_refs": ["P3"],
+    "missing_information": [],
+    "review_status": "BLOCKED"
+  }
+}
